@@ -9,7 +9,7 @@ function HeaderComponent() {
     }
     return (
         <div className='flex justify-between items-center w-full h-[100px] relative px-4 md:px-0'>
-            <a href="#" className='text-white text-2xl font-semibold duration-300 ease-in-out active:scale-110'>Ivkovic<span className='text-blue-600'>Dev</span></a>
+            <a href="#" className='text-white text-2xl font-semibold lg:duration-300 lg:ease-in-out lg:hover:scale-110'>Ivkovic<span className='text-blue-600'>Dev</span></a>
             {/* navigation bar */}
             <div className='md:hidden'>
                 <RxHamburgerMenu onClick={handleMenu} className='text-white size-7 cursor-pointer'/>

@@ -9,12 +9,15 @@ function ServicesComponent() {
     <div className='flex flex-col gap-5 items-center'>
         {/* heading */}
         <div className='flex justify-center w-full h-20 items-center'>
-            <h1 className='text-white font-bold text-3xl'>Services</h1>
+            <h1 className='text-white font-bold text-3xl 2xl:text-5xl'>Services</h1>
         </div>
-        <ServicesCardComponent serviceName='WebDevelopment' serviceImg={webDevelopmentImg}/>
-        <ServicesCardComponent serviceName='Web Design' serviceImg={webDesignImg}/>
-        <ServicesCardComponent serviceName='Photo Editing' serviceImg={photoEditingImg}/>
-        <ServicesCardComponent serviceName='Video Editing' serviceImg={videoEditingImg}/>
+        {/* cards */}
+        <div className='flex flex-col gap-10 md:flex-row md:flex-wrap md:justify-center 2xl:my-44'>
+          <ServicesCardComponent serviceName='WebDevelopment' serviceImg={webDevelopmentImg}/>
+          <ServicesCardComponent serviceName='Web Design' serviceImg={webDesignImg}/>
+          <ServicesCardComponent serviceName='Photo Editing' serviceImg={photoEditingImg}/>
+          <ServicesCardComponent serviceName='Video Editing' serviceImg={videoEditingImg}/>
+        </div>
     </div>
   )
 }

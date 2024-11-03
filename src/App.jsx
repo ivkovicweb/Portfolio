@@ -8,12 +8,14 @@ import FooterComponent from './components/FooterComponent'
 
 function App() {
   return (
-    <div className='container mx-auto'>
-      <HeaderComponent />
-      <HomeComponent />
-      <AboutComponent />
-      <ServicesComponent />
-      <ContactComponent />
+    <div>
+      <div className='container mx-auto'>
+        <HeaderComponent />
+        <HomeComponent />
+        <AboutComponent />
+        <ServicesComponent />
+        <ContactComponent />
+      </div>
       <FooterComponent />
     </div>
   )
